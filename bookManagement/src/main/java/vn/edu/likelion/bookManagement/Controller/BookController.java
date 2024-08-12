@@ -44,7 +44,7 @@ public class BookController {
 		List<BookDTO> list = new ArrayList<>();
 		for (Book book : books) {
 			list.add(convertToDTO(book));
-			
+			    System.out.println("123");
 		}
 		return list;
 		
